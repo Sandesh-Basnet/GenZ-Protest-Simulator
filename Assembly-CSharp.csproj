@@ -66,6 +66,7 @@
     <Compile Include="Assets/TENKOKU - DYNAMIC SKY/SCRIPTS/NoiseTools/XXHash.cs" />
     <Compile Include="Assets/TENKOKU - DYNAMIC SKY/SCRIPTS/TenkokuGlobalSound.cs" />
     <Compile Include="Assets/Scripts/ProtestAgent.cs" />
+    <Compile Include="Assets/Scripts/NextScene.cs" />
     <Compile Include="Assets/TENKOKU - DYNAMIC SKY/SCRIPTS/TenkokuSkyFog.cs" />
     <Compile Include="Assets/TENKOKU - DYNAMIC SKY/SCRIPTS/TenkokuSunShafts.cs" />
     <Compile Include="Assets/TENKOKU - DYNAMIC SKY/_DEMO/SCRIPTS/CONTROLLER/ten_demo_ControllerFreeCamera.cs" />
@@ -83,35 +84,57 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TENKOKU - DYNAMIC SKY/SHADERS/Tenkoku_sun.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets/TENKOKU - DYNAMIC SKY/SHADERS/Tenkoku_star.shader" />
     <None Include="Assets/TENKOKU - DYNAMIC SKY/SHADERS/Tenkoku_moonsphere.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader" />
     <None Include="Assets/Tree_Packs/URP_Tree_Pack/Doc/1_Readme.txt" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
     <None Include="Assets/TENKOKU - DYNAMIC SKY/SHADERS/Tenkoku_aurora_sphere.shader" />
     <None Include="Assets/TENKOKU - DYNAMIC SKY/SHADERS/Tenkoku_fx_particle_lit.shader" />
     <None Include="Assets/TENKOKU - DYNAMIC SKY/SHADERS/Tenkoku_cloud_plane.shader" />
     <None Include="Assets/TENKOKU - DYNAMIC SKY/SHADERS/Tenkoku_suneclipse.shader" />
     <None Include="Assets/TENKOKU - DYNAMIC SKY/SHADERS/Tenkoku_galaxy.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" />
     <None Include="Assets/Tree_Packs/URP_Tree_Pack/Doc/2_Notices.txt" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
     <None Include="Assets/TENKOKU - DYNAMIC SKY/SHADERS/Tenkoku_fx_particle.shader" />
     <None Include="Assets/TENKOKU - DYNAMIC SKY/SHADERS/Tenkoku_sky_elek.shader" />
     <None Include="Assets/TENKOKU - DYNAMIC SKY/SHADERS/Tenkoku_cloud_sphereSingle.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl" />
     <None Include="Assets/TENKOKU - DYNAMIC SKY/RESOURCES/_stardata.txt" />
     <None Include="Assets/TENKOKU - DYNAMIC SKY/SHADERS/Tenkoku_aurora_plane.shader" />
     <None Include="Assets/Starter Assets/Sample/Environment/Shaders/Built-in_RP/Triplanar.shader" />
     <None Include="Assets/TENKOKU - DYNAMIC SKY/SHADERS/Tenkoku_sky_legacy.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />
+    <None Include="Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" />
     <None Include="Assets/TENKOKU - DYNAMIC SKY/SHADERS/Tenkoku_TemporalReprojection.shader" />
     <None Include="Assets/TENKOKU - DYNAMIC SKY/SHADERS/TenkokuSunShafts.shader" />
+    <None Include="Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" />
     <None Include="Assets/TENKOKU - DYNAMIC SKY/SHADERS/AtmosphericScattering.cginc" />
     <None Include="Assets/TENKOKU - DYNAMIC SKY/_Tenkoku_ReadMe.txt" />
     <None Include="Assets/TENKOKU - DYNAMIC SKY/SHADERS/Tenkoku_VelocityBuffer.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets/TENKOKU - DYNAMIC SKY/SHADERS/Tenkoku_cloud_sphere.shader" />
     <None Include="Assets/TENKOKU - DYNAMIC SKY/SHADERS/TenkokuBlur.shader" />
     <None Include="Assets/Starter Assets/Sample/Environment/Shaders/Built-in_RP/ArmatureShader.shader" />
     <None Include="Assets/TENKOKU - DYNAMIC SKY/SHADERS/Tenkoku_fx_particle_lightning.shader" />
     <None Include="Assets/TENKOKU - DYNAMIC SKY/SHADERS/TenkokuDepth.shader" />
-    <None Include="Assets/BodyGuards/ReadMe.txt.txt" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" />
     <None Include="Assets/TENKOKU - DYNAMIC SKY/SHADERS/Tenkoku_planet.shader" />
     <None Include="Assets/TENKOKU - DYNAMIC SKY/SHADERS/Tenkoku_FX_Fog.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" />
     <None Include="Assets/TENKOKU - DYNAMIC SKY/SHADERS/Tenkoku_sky_elek_scatter.shader" />
   </ItemGroup>
   <ItemGroup>
