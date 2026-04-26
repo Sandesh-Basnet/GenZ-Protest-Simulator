@@ -50,6 +50,7 @@
     <Compile Include="Assets/TENKOKU - DYNAMIC SKY/SCRIPTS/TenkokuPostFX.cs" />
     <Compile Include="Assets/TENKOKU - DYNAMIC SKY/SCRIPTS/TenkokuStarData.cs" />
     <Compile Include="Assets/TENKOKU - DYNAMIC SKY/SCRIPTS/TenkokuLightningFX.cs" />
+    <Compile Include="Assets/UnityTechnologies/ParticlePack/EffectExamples/Misc Effects/Scripts/SpawnEffect.cs" />
     <Compile Include="Assets/TENKOKU - DYNAMIC SKY/SCRIPTS/TenkokuCalculations.cs" />
     <Compile Include="Assets/TENKOKU - DYNAMIC SKY/SCRIPTS/NoiseTools/WorleyNoise.cs" />
     <Compile Include="Assets/Scripts/CameraSwitcher.cs" />
@@ -60,18 +61,23 @@
     <Compile Include="Assets/Tree_Packs/URP_Tree_Pack/Scripts/Tree_Packs.cs" />
     <Compile Include="Assets/TENKOKU - DYNAMIC SKY/SCRIPTS/Tenkoku_TemporalEffectBase.cs" />
     <Compile Include="Assets/PBR_Grass_Textures/Scripts/CameraFreeflight.cs" />
+    <Compile Include="Assets/UnityTechnologies/ParticlePack/Shared/Scripts/ProximityActivate.cs" />
     <Compile Include="Assets/TENKOKU - DYNAMIC SKY/_DEMO/SCRIPTS/ui_tenkokuHandler.cs" />
     <Compile Include="Assets/TENKOKU - DYNAMIC SKY/SCRIPTS/TenkokuSkyBlur.cs" />
     <Compile Include="Assets/Scripts/CrouchController.cs" />
     <Compile Include="Assets/TENKOKU - DYNAMIC SKY/SCRIPTS/NoiseTools/XXHash.cs" />
     <Compile Include="Assets/TENKOKU - DYNAMIC SKY/SCRIPTS/TenkokuGlobalSound.cs" />
-    <Compile Include="Assets/Scripts/ProtestAgent.cs" />
     <Compile Include="Assets/Scripts/NextScene.cs" />
+    <Compile Include="Assets/UnityTechnologies/ParticlePack/Shared/Ramps/Runtime/RampAsset.cs" />
+    <Compile Include="Assets/UnityTechnologies/ParticlePack/Shared/Scripts/AdjustTimeScale.cs" />
+    <Compile Include="Assets/UnityTechnologies/ParticlePack/Shared/Scripts/SimpleCameraController.cs" />
     <Compile Include="Assets/TENKOKU - DYNAMIC SKY/SCRIPTS/TenkokuSkyFog.cs" />
+    <Compile Include="Assets/UnityTechnologies/ParticlePack/Shared/Scripts/SimpleCharacterMotor.cs" />
     <Compile Include="Assets/TENKOKU - DYNAMIC SKY/SCRIPTS/TenkokuSunShafts.cs" />
     <Compile Include="Assets/TENKOKU - DYNAMIC SKY/_DEMO/SCRIPTS/CONTROLLER/ten_demo_ControllerFreeCamera.cs" />
     <Compile Include="Assets/TutorialInfo/Scripts/Readme.cs" />
     <Compile Include="Assets/TENKOKU - DYNAMIC SKY/_DEMO/SCRIPTS/CONTROLLER/ten_demo_ControllerMaster.cs" />
+    <Compile Include="Assets/Scripts/FireShooter.cs" />
     <Compile Include="Assets/TENKOKU - DYNAMIC SKY/SCRIPTS/Random.cs" />
     <Compile Include="Assets/TENKOKU - DYNAMIC SKY/SCRIPTS/Tenkoku_VelocityBuffer.cs" />
     <Compile Include="Assets/TENKOKU - DYNAMIC SKY/SCRIPTS/NoiseTools/NoiseGeneratorBase.cs" />
@@ -100,6 +106,7 @@
     <None Include="Assets/Tree_Packs/URP_Tree_Pack/Doc/2_Notices.txt" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
     <None Include="Assets/TENKOKU - DYNAMIC SKY/SHADERS/Tenkoku_fx_particle.shader" />
+    <None Include="Assets/UnityTechnologies/ParticlePack/EffectExamples/Misc Effects/Prefabs/Readme_Dissolve_Respawn_.txt" />
     <None Include="Assets/TENKOKU - DYNAMIC SKY/SHADERS/Tenkoku_sky_elek.shader" />
     <None Include="Assets/TENKOKU - DYNAMIC SKY/SHADERS/Tenkoku_cloud_sphereSingle.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
@@ -107,7 +114,9 @@
     <None Include="Assets/TENKOKU - DYNAMIC SKY/RESOURCES/_stardata.txt" />
     <None Include="Assets/TENKOKU - DYNAMIC SKY/SHADERS/Tenkoku_aurora_plane.shader" />
     <None Include="Assets/Starter Assets/Sample/Environment/Shaders/Built-in_RP/Triplanar.shader" />
+    <None Include="Assets/UnityTechnologies/ParticlePack/EffectExamples/Magic Effects/Shaders/Ice.shader" />
     <None Include="Assets/TENKOKU - DYNAMIC SKY/SHADERS/Tenkoku_sky_legacy.shader" />
+    <None Include="Assets/UnityTechnologies/ParticlePack/EffectExamples/Misc Effects/Shaders/Respawn.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />
     <None Include="Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" />
@@ -123,6 +132,7 @@
     <None Include="Assets/TENKOKU - DYNAMIC SKY/_Tenkoku_ReadMe.txt" />
     <None Include="Assets/TENKOKU - DYNAMIC SKY/SHADERS/Tenkoku_VelocityBuffer.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets/UnityTechnologies/ParticlePack/EffectExamples/Misc Effects/Shaders/FireFly.shader" />
     <None Include="Assets/TENKOKU - DYNAMIC SKY/SHADERS/Tenkoku_cloud_sphere.shader" />
     <None Include="Assets/TENKOKU - DYNAMIC SKY/SHADERS/TenkokuBlur.shader" />
     <None Include="Assets/Starter Assets/Sample/Environment/Shaders/Built-in_RP/ArmatureShader.shader" />
@@ -1118,16 +1128,16 @@
       <HintPath>Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Searcher.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Searcher.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.AI.Navigation">
       <HintPath>Library/ScriptAssemblies/Unity.AI.Navigation.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Searcher.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.Searcher.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
@@ -1150,6 +1160,10 @@
       <HintPath>Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.ShaderGraph.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
       <Private>False</Private>
@@ -1160,10 +1174,6 @@
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.ShaderGraph.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
