@@ -50,6 +50,7 @@
     <Compile Include="Assets/TENKOKU - DYNAMIC SKY/SCRIPTS/TenkokuPostFX.cs" />
     <Compile Include="Assets/TENKOKU - DYNAMIC SKY/SCRIPTS/TenkokuStarData.cs" />
     <Compile Include="Assets/TENKOKU - DYNAMIC SKY/SCRIPTS/TenkokuLightningFX.cs" />
+    <Compile Include="Assets/Scripts/MolotovProjectile.cs" />
     <Compile Include="Assets/UnityTechnologies/ParticlePack/EffectExamples/Misc Effects/Scripts/SpawnEffect.cs" />
     <Compile Include="Assets/TENKOKU - DYNAMIC SKY/SCRIPTS/TenkokuCalculations.cs" />
     <Compile Include="Assets/TENKOKU - DYNAMIC SKY/SCRIPTS/NoiseTools/WorleyNoise.cs" />
@@ -80,6 +81,7 @@
     <Compile Include="Assets/Scripts/FireShooter.cs" />
     <Compile Include="Assets/TENKOKU - DYNAMIC SKY/SCRIPTS/Random.cs" />
     <Compile Include="Assets/TENKOKU - DYNAMIC SKY/SCRIPTS/Tenkoku_VelocityBuffer.cs" />
+    <Compile Include="Assets/Scripts/MolotovThrower.cs" />
     <Compile Include="Assets/TENKOKU - DYNAMIC SKY/SCRIPTS/NoiseTools/NoiseGeneratorBase.cs" />
     <Compile Include="Assets/TENKOKU - DYNAMIC SKY/SCRIPTS/TenkokuCameraTools.cs" />
     <Compile Include="Assets/TENKOKU - DYNAMIC SKY/SCRIPTS/Tenkoku_TemporalReprojection.cs" />
