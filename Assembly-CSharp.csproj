@@ -81,6 +81,7 @@
     <Compile Include="Assets/TutorialInfo/Scripts/Readme.cs" />
     <Compile Include="Assets/TENKOKU - DYNAMIC SKY/_DEMO/SCRIPTS/CONTROLLER/ten_demo_ControllerMaster.cs" />
     <Compile Include="Assets/TENKOKU - DYNAMIC SKY/SCRIPTS/Random.cs" />
+    <Compile Include="Assets/Scripts/OutroEnd.cs" />
     <Compile Include="Assets/TENKOKU - DYNAMIC SKY/SCRIPTS/Tenkoku_VelocityBuffer.cs" />
     <Compile Include="Assets/Scripts/MolotovThrower.cs" />
     <Compile Include="Assets/TENKOKU - DYNAMIC SKY/SCRIPTS/NoiseTools/NoiseGeneratorBase.cs" />
